@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "vite --host",
-    "build": "vite build"
+    "build": "vite build",
+    "docs:deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "ahooks": "^3.3.8",
