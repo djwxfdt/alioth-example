@@ -7,6 +7,7 @@ const config = {
   server: {
     port: 4002,
   },
+  base: '/alioth-example'
   
 }
 

@@ -2,14 +2,14 @@
   "scripts": {
     "start": "vite --host",
     "build": "vite build",
-    "docs:deploy": "gh-pages -d dist"
+    "docs:deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "ahooks": "^3.3.8",
     "axios": "^0.26.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "tuya-alioth": "^0.0.1-alpha.0"
+    "tuya-alioth": "0.0.1-alpha.4"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
